@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Cardsixth">
+
+
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/firstEditId"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:hint="1st Semister"
+            android:inputType="numberDecimal"
+            android:backgroundTint="@color/deeppurple"
+            />
+        <EditText
+            android:id="@+id/secondtEditId"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:hint="2nd Semister"
+            android:inputType="numberDecimal"
+            android:backgroundTint="@color/deeppurple"
+            />
+    </LinearLayout>
+    <LinearLayout
+
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/thirEditId"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:hint="3rd Semister"
+            android:inputType="numberDecimal"
+            android:backgroundTint="@color/deeppurple"
+            />
+        <EditText
+            android:id="@+id/forthEditId"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:hint="4th Semister"
+            android:inputType="numberDecimal"
+            android:backgroundTint="@color/deeppurple"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/fifthEditId"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:hint="5th Semister"
+            android:inputType="numberDecimal"
+            android:backgroundTint="@color/deeppurple"
+            />
+        <EditText
+            android:id="@+id/sixEditId"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:hint="6th Semister"
+            android:inputType="numberDecimal"
+            android:backgroundTint="@color/deeppurple"
+            />
+    </LinearLayout>
+    <LinearLayout
+
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/sevenEditId"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:hint="7th Semister"
+            android:inputType="numberDecimal"
+            android:backgroundTint="@color/deeppurple"
+            />
+        <EditText
+            android:id="@+id/eigthEditId"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:hint="8th Semister"
+            android:inputType="numberDecimal"
+            android:backgroundTint="@color/deeppurple"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/resultShowId"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:backgroundTint="@color/deeppurple"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/resultId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="@color/deeppurple"
+            android:paddingHorizontal="40dp"
+            android:paddingVertical="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BD Polytechnic</string>
+
+    <string name="duet_text">this is duet text item</string>
+    <string name="seat_text">120 seat</string>
+    <string name="follow">Follow</string>
+    <string name="results">Results</string>
+    <string name="probidhan">Probidhan</string>
+    <string name="booklist">BookList</string>
+    <string name="notice">Notice</string>
+    <string name="duet">Duet</string>
+    <string name="cgpa_calculate">CGPA Calculate</string>
+    <string name="jobs">Jobs</string>
+    <string name="university">University</string>
+    <string name="academic_calender">Academic Calender</string>
+    <string name="games">Play Online Games</string>
+
+
+
+</resources>

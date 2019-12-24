@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="10"
+    tools:context=".DepartmntSla">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        >
+
+
+
+    <Button
+        android:id="@+id/civilId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#222"
+        android:textStyle="bold"
+        android:background="#fff"
+        android:text="Civil" />
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ddd"/>
+    <Button
+        android:id="@+id/computerId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#222"
+        android:background="#fff"
+        android:textStyle="bold"
+        android:text="Computer" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ddd"/>
+    <Button
+        android:id="@+id/electricalId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textColor="#222"
+        android:textStyle="bold"
+        android:text="ELECTRICAL and ELECTRONICs" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ddd"
+        />
+    <Button
+        android:id="@+id/mechanicalId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textColor="#222"
+        android:textStyle="bold"
+        android:text="MECHANICAL" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ddd"
+        />
+    <Button
+        android:id="@+id/textileId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textColor="#222"
+        android:textStyle="bold"
+        android:text="TEXTILE" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ddd"
+        />
+    <Button
+        android:id="@+id/architechtureId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textColor="#222"
+        android:textStyle="bold"
+        android:text="ARCHITECTURE" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ddd"
+        />
+    <Button
+        android:id="@+id/foodId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textColor="#222"
+        android:textStyle="bold"
+        android:text="FOOD" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ddd"
+        />
+    <Button
+        android:id="@+id/ipeId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textColor="#222"
+        android:textStyle="bold"
+        android:text="INDUSTRIAL and PRODUCTION" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        />
+
+</LinearLayout>

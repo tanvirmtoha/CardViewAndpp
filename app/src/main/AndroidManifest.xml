@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tmtbdpoly.cardviewandpp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bdpolytech"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bdpolytech"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".SocialShow" />
+        <activity android:name=".splashpage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AkademicCalender" />
+        <activity android:name=".webviewshow" />
+        <activity android:name=".syllabus" />
+        <activity android:name=".DepartmntSla" />
+        <activity android:name=".NonDepartment" />
+        <activity
+            android:name=".showText"
+            android:screenOrientation="landscape" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".CardEighth" />
+        <activity android:name=".CardSeventh" />
+        <activity android:name=".Cardsixth" />
+        <activity android:name=".cardFifth" />
+        <activity android:name=".CardSecond" />
+        <activity
+            android:name=".CardFirst"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Book1p" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"
+            />
+    </application>
+
+</manifest>

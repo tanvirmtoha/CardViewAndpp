@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/dark"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    tools:context=".AboutUs">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developer"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            >
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/tanvir"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="Tanvir Mahtab Toha"
+                android:textColor="#fff"
+                />
+            <TextView
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:text="Bogra Polytechnic Institute"
+                android:layout_marginVertical="5dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/facebookId"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_marginHorizontal="5dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circlewhite"
+                android:src="@drawable/facebook"
+                android:padding="15dp"
+                />
+            <ImageView
+                android:id="@+id/linkedinId"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_marginHorizontal="5dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circlewhite"
+                android:src="@drawable/linkedin"
+                android:padding="15dp"
+                />
+            <ImageView
+                android:id="@+id/twitterId"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_marginHorizontal="5dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circlewhite"
+                android:src="@drawable/twit"
+                android:padding="15dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        />
+
+
+</RelativeLayout>
